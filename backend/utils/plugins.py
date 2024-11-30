@@ -17,7 +17,7 @@ from models.chat import Message
 from models.memory import Memory, MemorySource
 from models.notification_message import NotificationMessage
 from models.plugin import Plugin, UsageHistoryType
-from omi.backend.utils.webhooks import notifications_history_webhook
+from utils.webhooks import notifications_history_webhook
 from utils.apps import get_available_apps, weighted_rating
 from utils.notifications import send_notification
 from utils.other.endpoints import timeit
